@@ -714,7 +714,7 @@ img.rounded-circle {
 }
 .accordion-button {
   background-color: #E5E5FF; /* ejemplo: un violeta claro */
-  padding: 8px 8px;
+  padding: 8px 16px;
   font-size: 1rem;
   font-weight: 600;
   color: #5C1DFF;
@@ -775,6 +775,23 @@ img.rounded-circle {
    font-weight: 200;
 }
 
+.bg-violeta {
+  background-color: #8400FF;
+  color: white; /* opcional, por si el texto es oscuro */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.imagen-ajustada {
+  max-width: 75%;     /* Limita el tamaño de la imagen */
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-self: center; /* Alinea la imagen al centro del espacio vertical disponible */
+}
+.bg-violeta,
+.bg-violeta * {
+  color: white !important;
+}
 
 
 
